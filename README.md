@@ -2,9 +2,7 @@ Opitz HTML5 Präsentationsvorlage
 ================================
 
 Copyright 2013 OPITZ CONSULTING Deutschland GmbH
-
-Um diese Vorlage nutzen zu können müssen zusätzlich noch einige (nicht öffentliche) Bilder eingebunden werden.
-Diese sind im internen Portal unter Vorlagen als "HTML5Vorlage_Github_image_pack.zip" zu finden.
+Speziell die SVG Bilder sind geistiges Eigentum der OPITZ CONSULTING Deutschland GmbH
 
 Features
 -------------------------
@@ -20,5 +18,3 @@ Features
 Weiteres
 -------------------------
 Empfohlener Browser: Chrome. Speziell, wenn Webcamfeature genutzt werden soll. (WebRTC basierend)
-
-Quick-Start: Entpacken, Index.html öffnen, durchklickern. Index.html nach eigenen Bedürfnissen verändern

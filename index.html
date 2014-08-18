@@ -24,15 +24,16 @@
 
 <div id="logo">
     <p align="center">
-        <img src="css/Opitz_Logo_V1.svg" alt="Logo" width="154" height="154">
+        <img src="css/Opitz_Logo_V1.svg" alt="Logo" id="logo_img">
     </p>
 </div>
 
 <div id="copyright">
     <p align="center">
-        &copy; 2013 OPITZ CONSULTING Deutschland GmbH
+        &copy; 2014 OPITZ CONSULTING Deutschland GmbH
     </p>
 </div>
+
 
 <div class="reveal">
 
@@ -49,7 +50,26 @@
         </section>
 
         <section>
-            <h1><span class="caption">1</span>Lorem ipsum</h1>
+            <h2>Installation:</h2>
+            <span><code>npm install -g yo</code></span><br>
+            <span><code>npm install</code></span><br>
+            <span><code>grunt serve</code></span><br>
+            <span><code>localhost:8000</code></span><br>
+
+
+        </section>
+
+        <section>
+            <h2>Control from smartphone</h2>
+            <p>
+                scan QR Code on right
+            </p>
+        </section>
+
+        <section>Mobile Ready! Pull window small or try on smartphone/tablet</section>
+
+        <section>
+            <h2><span class="caption">1</span>Lorem ipsum</h2>
 
             <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
@@ -60,7 +80,7 @@
         <section>
 
             <section>
-                <h1>Untergeordnete Folien</h1>
+                <h2>Untergeordnete Folien</h2>
 
                 <p>
                     Folien könnnen untergeordnet werden
@@ -69,13 +89,13 @@
             </section>
 
             <section>
-                <h1>Folien-Level 1</h1>
+                <h2>h2 heading</h2>
 
                 <p>zum navigieren einfach 'oben' oder 'unten' klicken.</p>
             </section>
 
             <section>
-                <h1>Folien-Level 2</h1>
+                <h3>h3 heading</h3>
 
                 <p>und so weiter!</p>
             </section>
@@ -83,46 +103,60 @@
         </section>
 
         <section>
-            <h1>Hier eine Auflistung:</h1>
+            <h2>Hier eine Auflistung:</h2>
             <ul>
-                <li class="fragment">Ein</li>
-                <li class="fragment">Punkt</li>
-                <li class="fragment">nach</li>
-                <li class="fragment">dem</li>
-                <li class="fragment">anderen</li>
+                <li class="fragment">Ein Punkt nach</li>                
+                <li class="fragment">dem anderen</li>
+                <li class="fragment"><code>&lt;li class=&quot;fragment&quot;&gt;punkt&lt;/li&gt;</code></li>
             </ul>
         </section>
 
         <section>
-            <section data-state="red">
-                <h1>Powerpoint</h1>
+            <section data-state="alert">
+                <h2>Powerpoint</h2>
 
                 <p>
                     Wer sieht da nicht rot?
                 </p>
+                <code>&lt;section data-state=&quot;alert&quot;&gt;</code>
             </section>
 
-            <section data-state="yellow">
-                <h1>Aber die Opitz-Farbwelt kennt auch:<br>
-                    Gelb,</h1>
+            <section data-state="soothe">
+                <code>&lt;section data-state=&quot;soothe&quot;&gt;</code>
             </section>
 
-            <section data-state="blue">
-                <h1>Blau,</h1>
+            <section data-state="blackout">
+                <code>&lt;section data-state=&quot;blackout&quot;&gt;</code>
             </section>
 
-            <section data-state="green">
-                <h1>Grün</h1>
+            <section data-state="whiteout">
+                <code>&lt;section data-state=&quot;whiteout&quot;&gt;</code>
             </section>
 
-            <section data-state="black">
-                <h1>und Schwarz!</h1>
+            <section data-state="cobalt">
+                <code>&lt;section data-state=&quot;cobalt&quot;&gt;</code>
             </section>
 
-        </section>
+            <section data-state="mint">
+                <code>&lt;section data-state=&quot;mint&quot;&gt;</code>
+            </section>
+
+            <section data-state="submerge">
+                <code>&lt;section data-state=&quot;submerge&quot;&gt;</code>
+            </section>
+
+            <section data-state="sunset">
+                <code>&lt;section data-state=&quot;sunset&quot;&gt;</code>
+            </section>
+
+            <section data-state="lila">
+                <code>&lt;section data-state=&quot;lila&quot;&gt;</code>
+            </section>            
+
+        </section>        
 
         <section>
-            <h1>Steuern Sie mit Links zwischen den einzelnen Folien</h1>
+            <h2>Steuern Sie mit Links zwischen den einzelnen Folien</h2>
 
             <p>
                 Dies sieht dann so aus: <a href="#/2/3">Link</a>
@@ -130,7 +164,87 @@
         </section>
 
         <section>
-            <h1>Präsentationen leben von Bildern und Medien</h1>
+            <section>
+                <h2>Markdown support</h2>
+
+                <pre> <code>
+    &lt;section data-markdown&gt;
+        &lt;script type=&quot;text/template&quot;&gt;
+            ## Idee
+
+            * Automatisierung der Beleuchtung in Gebäuden
+            * Speziell Licht in Gemeinschaftsräumen sowie privaten Räumen anhand von Events ein/ausschalten
+            * Events in Form von Bewohner kommt an / verlässt das Gebäude
+        &lt;/script&gt;
+    &lt;/section&gt;
+                </code> </pre>
+            </section>
+
+            <section data-markdown>
+    <script type="text/template">
+        ## Idee
+
+        * Automatisierung der Beleuchtung in Gebäuden
+        * Speziell Licht in Gemeinschaftsräumen sowie privaten Räumen anhand von Events ein/ausschalten
+        * Events in Form von Bewohner kommt an / verlässt das Gebäude
+    </script>
+            </section>
+
+            <section>
+                <h3>Markdown kann syntax highlights</h3>
+                <pre><code>
+            &lt;section data-markdown&gt;
+                &lt;script type=&quot;text/template&quot;&gt;
+                    ### Loading native libraries in Java
+
+                    ```java
+
+        try {
+            System.out.println(&quot;Loading Native Libraries:: Path: &quot; + System.getProperty(&quot;java.library.path&quot;));
+            //loading a library, there are two ways. but it only gets loaded once so doesnt matter if done twice here
+            System.loadLibrary(&quot;RCSwitchAdapter&quot;);
+            System.load(&quot;/usr/local/lib/libRCSwitchAdapter.so&quot;);
+            System.out.println(&quot;Loading Native Libraries:: loading librarys worked&quot;);
+            workingNativeCode = true;
+        } catch (UnsatisfiedLinkError e) {
+            e.printStackTrace();
+        }
+
+        }
+    }
+                    ```
+                &lt;/script&gt;
+            &lt;/section&gt;</code> </pre>
+            </section>  
+
+        <section data-markdown>
+                <script type="text/template">
+                    ### Java syntax highlights
+
+                    ```java
+
+        try {
+            System.out.println("Loading Native Libraries:: Path: " + System.getProperty("java.library.path"));
+            //loading a library, there are two ways. but it only gets loaded once so doesnt matter if done twice here
+            System.loadLibrary("RCSwitchAdapter");
+            System.load("/usr/local/lib/libRCSwitchAdapter.so");
+            System.out.println("Loading Native Libraries:: loading librarys worked");
+            workingNativeCode = true;
+        } catch (UnsatisfiedLinkError e) {
+            e.printStackTrace();
+        }
+
+        }
+    }
+                    ```
+                </script>
+            </section>
+
+    </section>
+
+
+        <section>
+            <h2>Präsentationen leben von Bildern und Medien</h2>
 
             <p>
                 <img src="images/beispiel_grafik.jpg" alt="Platzhalterbild">
@@ -138,7 +252,20 @@
         </section>
 
         <section>
-            <h1>Hier ein paar Highlights</h1>
+            <h2>Number one place of reference:</h2>
+
+            <a href="https://github.com/hakimel/reveal.js">Githubseite von RevealJS</a><br>
+            <a href="http://lab.hakim.se/reveal-js/#/">RevealJS Website</a>
+        </section>
+
+        <section>
+            <h2>Weitere Konfigurationen:</h2> 
+            <code>revealjsConfig.js</code>
+            <p>for settings see here: <a href="https://github.com/hakimel/reveal.js#configuration">git config desc</a> </p>
+        </section>
+
+        <section>
+            <h2>Hier ein paar Highlights</h2>
 
             <p>Klicken Sie sich einfach durch:</p>
 
@@ -162,6 +289,8 @@
                 <p>Webcam oder externe Kamera Zugriff via HTML5</p>
 
                 <p>Ideal für Demozwecke</p>
+
+                <p>(Funktioniert nur mit lokalem Server)</p>
             </section>
             <section>
                 <video autoplay id="webcamvideo"></video>
@@ -170,16 +299,11 @@
                 <script type="text/javascript" src="js/cameraAccess.js"></script>
             </section>
         </section>
-
-        <section>
-            <section><h1>Überschriftenvorlage</h1></section>
-            <section><h2>H2 Überschrift</h2></section>
-            <section><h3>H3 Überschrift</h3></section>
-        </section>
+        
 
 
         <section>
-            <h1>Käffchen?</h1>
+            <h2>Käffchen?</h2>
 
             <p>Wenn Sie eine kleine Pause einlegen wollen, reicht es die Taste 'b' zu drücken und die Präsentation färbt
                 sich schwarz.
@@ -187,20 +311,9 @@
         </section>
 
         <section>
-            <h1>Vielen Dank <br>
-                für Ihre Aufmerksamkeit!</h1>
+            <h2>Bei Fragen:</h2>
             <br>
-            <br>
-
-            <p>
-                <b>Erika Mustermann:</b><br>
-                erika.mustermann@opitz-consulting.com<br><br>
-            </p>
-
-            <p>
-                <b>Max Mustermann:</b><br>
-                max.mustermann@opitz-consulting.com<br>
-            </p>
+            <p><a target="_blank" href="https://portal.opitz-consulting.de/mysite/Person.aspx?accountname=OCGM%5CPBR"> Pascal Brokmeier (PBR)</a></p>
         </section>
 
     </div>
@@ -211,44 +324,8 @@
 <script src="js/head.min.js"></script>
 <script src="js/reveal.js"></script>
 
-<script>
+<script type="text/javascript" src="revealjsConfig.js"></script>
 
-    Reveal.initialize({
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
-
-        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
-
-        // Optional libraries used to extend on reveal.js
-        dependencies: [
-            { src: 'js/classList.js', condition: function () {
-                return !document.body.classList;
-            } },
-            { src: 'js/markdown/showdown.js', condition: function () {
-                return !!document.querySelector('[data-markdown]');
-            } },
-            { src: 'js/markdown/markdown.js', condition: function () {
-                return !!document.querySelector('[data-markdown]');
-            } },
-            { src: 'js/highlight/highlight.js', async: true, callback: function () {
-                hljs.initHighlightingOnLoad();
-            } },
-            { src: 'js/zoom-js/zoom.js', async: true, condition: function () {
-                return !!document.body.classList;
-            } },
-            { src: 'js/notes/notes.js', async: true, condition: function () {
-                return !!document.body.classList;
-            } },
-            { src: 'js/remotes/remotes.js', async: true, condition: function () {
-                return !!document.body.classList;
-            } }
-
-        ]
-    });
-
-</script>
 
 </body>
 </html>
