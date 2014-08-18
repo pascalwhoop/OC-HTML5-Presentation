@@ -4,6 +4,11 @@ Opitz HTML5 Präsentationsvorlage
 Copyright 2013 OPITZ CONSULTING Deutschland GmbH
 Speziell die SVG Bilder sind geistiges Eigentum der OPITZ CONSULTING Deutschland GmbH
 
+
+Installation:
+-----------
+Clone Repo (oder zip runterladen), weitere Erklaerungen in index.html (mit browser oeffnen)
+
 Features
 -------------------------
 
