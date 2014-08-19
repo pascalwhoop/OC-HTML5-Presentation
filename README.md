@@ -9,6 +9,8 @@ Installation:
 -----------
 Clone Repo (oder zip runterladen), weitere Erklaerungen in index.html (mit browser oeffnen)
 
+Passwort fuer zip steht im internen Blogbeitrag 
+
 Features
 -------------------------
 
