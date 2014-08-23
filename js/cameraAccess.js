@@ -3,7 +3,7 @@ var onFailSoHard = function (e) {
 };
 
 
-navigator.webkitGetUserMedia({video: true, audio: true}, function (localMediaStream) {
+navigator.webkitGetUserMedia({video: true, audio: false}, function (localMediaStream) {
     var video = document.getElementById('webcamvideo');
     video.src = window.URL.createObjectURL(localMediaStream);
 
